@@ -1,4 +1,7 @@
+require "language/python"
+
 class Wlb < Formula
+  include Language::Python::Virtualenv
   desc "Agentic AI benchmark of CUHK-Shenzhen (essay / SVG / quant / scheduling)"
   homepage "https://github.com/0x3st/wl-benchmark"
   url "https://github.com/0x3st/wl-benchmark/archive/refs/tags/v0.4.0.tar.gz"
