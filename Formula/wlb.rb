@@ -4,10 +4,10 @@ class Wlb < Formula
   include Language::Python::Virtualenv
   desc "Agentic AI benchmark of CUHK-Shenzhen (essay / SVG / quant / scheduling)"
   homepage "https://github.com/0x3st/wl-benchmark"
-  url "https://github.com/0x3st/wl-benchmark/releases/download/v0.6.0/wl_benchmark-0.6.0.tar.gz"
-  sha256 "7ea1f3eb3de9e58c56c6f733b93e81aa232d61c3d42e40043ce7762a948315ff"
+  url "https://github.com/0x3st/wl-benchmark/releases/download/v0.6.1/wl_benchmark-0.6.1.tar.gz"
+  sha256 "7baec2db6e53c9c3c5705efdc74914bc138ceae3cdc904b26666b9fad9d08b17"
   license "MIT"
-  version "0.6.0"
+  version "0.6.1"
 
   depends_on "python@3.12"
 
